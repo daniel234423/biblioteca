@@ -5,14 +5,14 @@ import math
 import os
 
 # Importar modelos de datos para libros, géneros, autores y inserción de datos
-from models.libros import Libros  # Modelo para libros
-from models.generos import Generos  # Modelo para géneros
-from models.autores import Autores  # Modelo para autores
-from models.insert import Insert  # Modelo para inserción de datos
-from models.favorites import Favoritos
-from models.usuarios import Usuarios
-from models.sugerencias import Sugerencia
-from models.comentarios import Comentario
+from .models.libros import Libros  # Modelo para libros
+from .models.generos import Generos  # Modelo para géneros
+from .models.autores import Autores  # Modelo para autores
+from .models.insert import Insert  # Modelo para inserción de datos
+from .models.favorites import Favoritos
+from .models.usuarios import Usuarios
+from .models.sugerencias import Sugerencia
+from .models.comentarios import Comentario
 
 # Importar función para obtener información de un libro a partir de su ISBN
 from prueba import get_book_info  # Función para obtener información de un libro
